@@ -42,7 +42,7 @@ generates the netlist.
 -> Qrouter is based on the standard Lee maze router algorithm.
 
 
-**Magic**
+**Magic** 
 -> Magic is a venerable VLSI layout tool, written in 1980 at Berkeley by John
 Ousterhout, now famous primarily for writing the scripting interpreter language Tcl. -> Due largely in part to its liberal Berkeley open-source license, magic has remained popular with universities and small companies. 
 -> The open-source license has allowed VLSI engineers with a bent toward programming to implement clever ideas and help magic stay abreast of fabrication technology.
