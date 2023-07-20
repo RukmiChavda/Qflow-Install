@@ -14,7 +14,10 @@ Tools are integrated with the qflow:
 ![Qflow1](https://github.com/RukmiChavda/Qflow-Install/assets/82014536/2d21c04a-c787-4e10-b830-28e078aad933)
 
 
+
+
 **yosys**
+
 -> Yosys is a Verilog HDL synthesis tool. This means that it takes a behavioural design description as input and generates an RTL, logical gate, or physical gate-level description of the design as output.
 
 -> Yosys’ main strengths are behavioural and RTL synthesis. 
@@ -31,7 +34,10 @@ Register-Transfer-Level-Intermediate-Language (RTLIL) representation. It does th
 -> The RTLIL representation is used by all passes as input and outputs.
 
 
+
+
 **graywolf**
+
 -> TimberWolf was developed at Yale University and was distributed as open-source for a time until it was taken commercially. 
 
 -> The last open-source version of TimberWolf does not perform detail routing but is a professional-grade placement tool. 
@@ -41,7 +47,10 @@ Register-Transfer-Level-Intermediate-Language (RTLIL) representation. It does th
 -> It auto-places the pins by default but the user can also define the pin placement manually.
 
 
+
+
 **qrouter**
+
 -> Qrouter is a tool to generate the physical connection using metal layers and also generates the netlist. 
 
 -> It is a maze router, otherwise known as an "over-the-cell" router or "sea-of-gates" router. That is, unlike a channel router, it begins with a description of placed standard cells, usually packed together at minimum spacing, and places metal routes over the standard cells. 
@@ -54,6 +63,7 @@ Register-Transfer-Level-Intermediate-Language (RTLIL) representation. It does th
 
 
 **Magic** 
+
 -> Magic is a venerable VLSI layout tool, written in 1980 at Berkeley by John Ousterhout, now famous primarily for writing the scripting interpreter language Tcl. -> Due largely in part to its liberal Berkeley open-source license, magic has remained popular with universities and small companies. 
 
 -> The open-source license has allowed VLSI engineers with a bent toward programming to implement clever ideas and help magic stay abreast of fabrication technology.
@@ -63,7 +73,10 @@ Register-Transfer-Level-Intermediate-Language (RTLIL) representation. It does th
 -> Magic is widely cited as being the easiest tool to use for circuit layout, even for people who ultimately rely on commercial tools for their product design flow.
 
 
+
+
 **Netgen**
+
 -> Netgen is a tool for comparing netlists, a process known as LVS, which stands for
 "Layout vs. Schematic". 
 
