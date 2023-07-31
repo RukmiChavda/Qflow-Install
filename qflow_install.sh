@@ -31,7 +31,7 @@ tar -xvf cmake-3.18.2.tar.gz
 rm cmake-3.18.2.tar.gz
 
 cd cmake-3.18.2
-cd ./bootstrap && make && sudo make install
+./bootstrap && make && sudo make install
 cd 
 
 ############################################
